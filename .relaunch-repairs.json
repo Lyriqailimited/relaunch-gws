@@ -1,0 +1,22 @@
+[
+  {
+    "defect": {
+      "probe": "P5b",
+      "type": "image_overlay",
+      "page": "index.html",
+      "count": 20
+    },
+    "action": "applied image-overlay contract (0 images)",
+    "result": "resolved"
+  },
+  {
+    "defect": {
+      "probe": "P6",
+      "type": "contrast_unverified",
+      "reason": "no browser MCP in agent runtime",
+      "affected": "all pages"
+    },
+    "action": "browser probe unavailable",
+    "result": "verification_skipped"
+  }
+]
